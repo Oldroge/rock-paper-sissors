@@ -23,7 +23,7 @@ if computador == 0:  # COMPUTADOR JOGA PEDRA
         print('JOGADOR VENCE')
     elif jogador == 2:
         print('COMPUTADOR VENCE')
-    elif jogador < 2:
+    else:
         print('JOGADA INVÁLIDA!')
 elif computador == 1:  # COMPUTADOR JOGA PAPEL
     if jogador == 0:
@@ -32,7 +32,7 @@ elif computador == 1:  # COMPUTADOR JOGA PAPEL
         print('EMPATE!')
     elif jogador == 2:
         print('JOGADOR VENCE')
-    elif jogador < 2:
+    else:
         print('JOGADA INVÁLIDA!')
 elif computador == 2:  # COMPUTADOR JOGA TESOURA
     if jogador == 0:
@@ -41,5 +41,5 @@ elif computador == 2:  # COMPUTADOR JOGA TESOURA
         print('COMPUTADOR VENCE')
     elif jogador == 2:
         print('EMPATE')
-    elif jogador < 2:
+    else:
         print('JOGADA INVÁLIDA!')
